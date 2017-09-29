@@ -59,7 +59,7 @@ cancer['target']
 df_target = pd.DataFrame(cancer['target'],columns=['Cancer'])
 
 
-# Now let's actually check out the dataframe!
+!
 
 # In[8]:
 
@@ -122,8 +122,7 @@ print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
 
 
-# Woah! Notice that we are classifying everything into a single class! This means our model needs to have it parameters adjusted (it may also help to normalize the data).
-# 
+
 
 # # Gridsearch
 
